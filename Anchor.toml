@@ -5,12 +5,15 @@ package_manager = "yarn"
 resolution = true
 skip-lint = false
 
+[programs.devnet]
+amm = "BHXF68PTvS1KXaix4HywUqP9DJWMjaNkSLZt1KSuTswZ"
+
 [programs.localnet]
 amm = "4ezuim4CP3uyumVRbQnDcy1UVKs4iAHcnrk7LvM2haXk"
 
 [provider]
-cluster = "localnet"
-wallet = '~\.config\solana\id.json'
+cluster = "devnet"
+wallet = "C:/Users/ardhe/.config/solana/id.json"
 
 [scripts]
 test = "cargo test"

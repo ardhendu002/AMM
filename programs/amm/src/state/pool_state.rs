@@ -8,6 +8,8 @@ pub struct PoolState {
     pub vault_a: Pubkey,
     pub vault_b: Pubkey,
     pub lp_mint: Pubkey,
+    pub reserve_a: u64,
+    pub reserve_b: u64,
     pub fee_bps: u16,
     pub bump: u8,
 }
